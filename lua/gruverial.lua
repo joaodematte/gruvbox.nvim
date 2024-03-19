@@ -471,7 +471,7 @@ local function get_groups()
     CocInfoHighlight = { link = "GruverialBlueUnderline" },
     CocHintHighlight = { link = "GruverialAquaUnderline" },
     TelescopeNormal = { link = "GruverialFg1" },
-    TelescopeSelection = { link = "GruverialFg0" },
+    TelescopeSelection = { link = "GruverialFg0", bg = colors.bg4 },
     TelescopeSelectionCaret = { link = "GruverialRed" },
     TelescopeMultiSelection = { link = "GruverialGray" },
     TelescopeBorder = { link = "GruverialBlueBold" },
